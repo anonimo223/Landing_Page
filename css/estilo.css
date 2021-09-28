@@ -1,0 +1,601 @@
+body{
+    margin: 0%;
+    background-color: rgb(44, 44, 44);
+
+}
+header{
+    background-color: rgb(92, 92, 92);
+    margin: 0%;
+}
+/*header_ H1*/
+.header-h1{
+    font-size: 50px;
+    font-family:'Montserrat',sans-serif;
+    color: rgb(177, 142, 199);
+    text-align: right; /*H1 centrado*/
+    margin: 5%;
+    border: 0px red solid;
+}
+.contenedor-logo{
+    border: 0px red solid;
+    width: 80%;
+    overflow: hidden;
+    margin: 0px 25px 0px 0px;
+}
+.logo{
+    width: 25%;
+    height: 20%;
+    float: left;
+    margin: 1%;
+}
+nav{
+    border: 0px red solid;
+    display: block;
+    width: 90%;
+}
+li{
+    width: 10%;
+    position: relative;
+    left:45%;
+    display: inline-block;
+    list-style: none;
+    padding-left:2px;
+    padding-right:30px;
+}
+a{
+    text-decoration: none;
+    font-size: 26px;
+    margin: 5%;
+    color: #fff;
+    cursor:pointer;
+    transition:all .4s;
+}
+nav ul li a{
+	padding:10px 20px;
+	text-transform:uppercase;
+	border-radius:7px;
+}
+nav ul li a:hover{
+	background-color:#9704c3bd;
+}
+
+.img1{
+    border: 0px red solid;
+}
+.img-banner{
+    width: 100%;
+    height: 55%;
+}
+
+/*Texto uno, UwU*/
+.mundo{
+    font-size: 30px;
+    text-align: left;
+    margin: 8% 5% 2% 8%;
+    font-family:'Montserrat',sans-serif;
+}
+.p-mundo{
+    font-size: 20px;
+    text-align: left;
+    margin: 1% 5% 5% 8%;
+    font-family:'Montserrat',sans-serif;
+}
+/*------------------------------------------*/
+.albums-h2{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Montserrat',sans-serif;
+}
+.albums{
+    background-color: rgb(255, 255, 255);
+    margin: 3%;
+    width: 94%;
+    height: auto;
+    cursor:pointer;
+    transition:all .4s;
+    border:2px solid #ffffff
+}
+.albums:hover{
+    background:#151516;
+    border:2px  solid #a62feb;
+}
+
+.img-table{
+    width: 70%;
+    height: 55%;
+    margin: 5% 0% 5% 0%;
+    cursor:pointer;
+    transition:all .4s;
+    overflow:hidden;
+}
+.img-table:hover{
+    background:#151516;
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+/*MERCH STORE UWU*/
+.enlace{
+    height: 30%;
+}
+.h3-enlace{
+    border: 0px red solid;
+    width: 20%;
+    font-size: 30px;
+    text-align: center;
+    margin: 5% 5% 2% 5%;
+    font-family:'Montserrat',sans-serif;
+    position: relative;
+    left: 25%;
+    top:-170px;
+}
+.img-enlace{
+    width: 20%;
+    border: 0px red solid;
+    margin:2% 0% 0% 5%;
+}
+.span1-p{
+    text-align: left;
+    border: 0px red solid;
+    font-size: 20px;
+    font-family:'Montserrat',sans-serif;
+    position: relative;
+    top: -180px;
+    width: 50%;
+    left: 30%;
+}
+.enlace-compras{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -180px;
+    cursor:pointer;
+    transition:all .4s;
+}
+
+.enlace-compras:hover{
+    color:#a62feb;
+}
+
+/*-------------------------------*/
+/*------------------------------*/
+
+/*INFO*/
+
+.info{
+    border: 0px red solid;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    overflow: hidden;
+    margin: 0% 5%;
+}
+.p-info{
+    margin: 7%;
+    font-size: 17px;
+    font-family:'Montserrat',sans-serif;
+}
+
+/*Aside UwU*/
+.aside-Uno{
+    border: 0px red solid;
+    width: 40%;
+    height: 33.6vw;
+    float: right;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    top: -460px;
+    bottom: 0px;
+    margin: 0% 5%;
+    padding: 0%;
+}
+.p-aside{
+    margin: 7%;
+    font-size: 17px;
+    font-family:'Montserrat',sans-serif;
+}
+.p-asideH{
+    margin: 7%;
+    font-size: 25px;
+    font-family:'Montserrat',sans-serif;
+}
+/*FORM-STYLE */
+.form{
+    width:340px;
+    height:370px;
+    border: 0px red solid;
+    margin: 4%;
+    padding:20px 30px;
+}
+.form{
+    background:#e6e6e6;
+    font-family:'Montserrat',sans-serif;
+    margin: 0%;
+}
+.form-h2{
+    width:50%;
+    margin:20px 0;
+    padding-bottom:10px;
+    color:#323252;
+    font-size: 30px;
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #ab95b9
+}
+input:focus{
+    border-bottom:2px solid #151516;
+}
+.p-form:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+.boton-form{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border-bottom:2px solid #ab95b9;
+    background:0;
+    color:#3a3a42;
+    cursor:pointer;
+    transition:all .3s
+}
+.boton-form:hover{
+    background:#151516;color:#fff
+}
+
+/*ASIDE DOs*/
+.aside-dos{
+    border: 0px red solid;
+    float: right;
+    width: 67.1%;
+    height: 62.3%;
+    overflow: hidden;
+    position: relative;
+    top: -440px;
+}
+.img-bannerdos{
+    width: 100%;
+    height: 100%;
+}
+
+/*END ASIDE DOS UWU*/
+
+/*--------------------------------------*/
+
+/*STULE-NOSOTROS*/
+
+.h2-nosotros{
+    width: 100%;
+    margin: 5%;
+}
+.h2-nosotros{
+    width: 30%;
+    font-family:'Montserrat',sans-serif;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+}
+.table-nosotros{
+    background-color: rgb(255, 255, 255);
+    margin: 3%;
+    width: 94%;
+    height: auto;
+    position: relative;
+    top:-200px;
+}
+
+.img-tableNosotros{
+    width: 70%;
+    height: 55%;
+    margin: 5% 0% 5% 0%;
+}
+.texto-table{
+    margin-right: 1rem;
+    font-family:'Montserrat',sans-serif;
+    font-size: 25px;
+}
+.texto-tablep{
+    margin: 8%;
+    font-family:'Montserrat',sans-serif;
+    font-size: 15px;
+}
+
+
+footer{
+    padding:20px;  
+    margin:0%;
+    margin-left: 5%; 
+    background-color: white;
+    width: 87%;
+}
+
+.p-footer{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*IDENTIFICADORES*/
+#principal{
+    width: 90%; 
+    margin-left: 10%; 
+    margin: auto;
+    background-color: #fff;
+}
+
+
+/*Responsive UWU*/
+/*SCREEN 1200*/
+@media screen and (max-width: 1200px){
+    body{
+        margin: 0%;
+        background-color: rgb(44, 44, 44);
+    }
+    .header-h1{
+        font-size: 70px;
+        text-align: right;
+        margin: 7%;
+    }
+    .contenedor-logo{
+        width: 90%;
+    }
+    .logo{
+        width: 28%;
+        height: 25%;
+    }
+    nav{
+        width: 90%;
+        height: 6%;
+    }
+    a{
+        font-size: 30px;
+    }
+    .aside-Uno {
+        height: 38vw;
+        top: -540px;
+    }
+    .aside-dos{
+        width: 63.1%;
+        height: 54.3%;
+        position: relative;
+        top: -433px;
+    }
+    .img-bannerdos{
+        width: 100%;
+    }
+    #principal{
+        width: 90%; 
+        margin-left: 7%; 
+        margin: auto;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contenedor-logo{
+        width: 100%;
+    }
+    .logo{
+        width: 25%;
+        height: 25%;
+        margin: 3%;
+    }
+    li{
+        left:40%;
+    }
+    a{
+        font-size: 24px;
+    }
+    .h3-enlace{
+        top:-140px;
+        left: 30%;
+    }
+    .img-enlace{
+        width: 26%;
+    }
+    .span1-p{
+        top: -150px;
+        left: 35%;
+    }
+    .enlace-compras{
+        top: -160px;
+    }
+    .aside-Uno{
+        top: -400px;
+    }
+
+    .aside-dos{
+        width: 55.6%;
+        height: 68.5%;
+        top: -411px;
+    }
+    .p-info{
+        font-size: 15px;
+    }
+    .p-aside{
+        margin: 7%;
+        font-size: 15px;
+        font-family:'Montserrat',sans-serif;
+    }
+    .p-asideH{
+        margin: 7%;
+        font-size: 20px;
+        font-family:'Montserrat',sans-serif;
+    }
+}
+/*SCREEN 992*/
+@media screen and (max-width: 992px){
+    body{
+        margin: 0%;
+        background-color: rgb(68, 56, 56);
+    }
+    .logo{
+        width: 28%;
+        height: 25%;
+        margin: 2%;
+    }
+    li{
+        left:38%;
+        padding-left:6px;
+        padding-right:40px;
+    }
+    
+    a{
+        font-size: 29px;
+    }
+    .img-banner{
+        height: 50%;
+    }
+    .enlace{
+        height: 25%;
+    }
+        
+    .img-enlace{
+        width: 28%;
+        border: 0px red solid;
+        margin:2% 0% 0% 5%;
+    }
+    .info{
+        width: 45%;
+    }
+    .p-info{
+        font-size: 20px;
+    }
+    .aside-Uno{
+        width: 45%;
+        height: 52vw;
+        top: -535px;
+    }
+    .p-aside{
+        font-size: 18px;
+    }
+    .p-asideH{
+        font-size: 30px;
+    }
+    .form{
+        position: relative;
+        top: 30px;
+        height:440px;
+    }
+    
+    input{
+        border-bottom:3px solid #ab95b9;
+        font-size: 17.5px;
+    }
+    input:focus{
+        border-bottom:3px solid #151516;
+    }
+    .p-form:before{
+        font-size:19px;
+    }
+    .boton-form{
+        padding:15px 20px;
+        font-size: 20px;
+    }
+    .aside-dos{
+        border: 0px red solid;
+        float: right;
+        width: 55%;
+        height: 64%;
+        top: -470px;
+    }
+    .h2-nosotros{
+        font-size: 30px;
+        left: 29.5%;
+        margin: 7%;
+    }
+    .table-nosotros{
+        top:-330px;
+    }
+    footer{
+        width: 86%;
+    }
+}
+/*END SCREEN 992*/
+/*-----------------------*/
+/*SCREEN 768*/
+@media screen and (max-width: 768px){
+    body{
+        margin: 0%;
+        background-color: rgb(95, 92, 92);
+    }
+    .enlace{
+        height: 35%;
+    }
+    .aside-Uno{
+        height: 50.6vw;
+        top: -400px;
+    }
+    .aside-dos{
+        top: -820px;
+        width: 100%;
+    height: 62.3%;
+    }
+    .form{
+        margin: 3% 3% 0% 23%;
+        overflow: hidden;
+    }
+    .p-info{
+        font-size: 17px;
+    }
+    .table-nosotros{
+        background-color: rgb(255, 255, 255);
+        margin: 3%;
+        width: 94%;
+        height: auto;
+        position: relative;
+        top:-220px;
+    }
+    .h2-nosotros{
+        top: -230px;
+    }
+    footer{
+        width: 85%;
+    }
+}
+
+
+
+/*SCREEN 567*/
+@media screen and (max-width: 576px){
+    body{
+        margin: 0%;
+        background-color: rgb(119, 107, 107);
+    }
+    .header-h1{
+        font-size: 60px;
+        text-align: center; 
+    }
+    .logo{
+        width: 40%;
+    }
+    nav{
+        height: 5%;
+    }
+    li{
+        left: 20%;
+    }
+    a{
+        font-size: 20px;
+    }
+
+    .img-banner{
+        height: 45%;
+    }
+
+}
